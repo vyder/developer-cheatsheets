@@ -14,4 +14,4 @@ const Person = {
 const { address : { state, pinCode }, name } = Person;
 
 console.log(name, state, pinCode) // John Snow The Crownlands 500014
-console.log(city) // ReferenceError
+console.log(address) // ReferenceError
